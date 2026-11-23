@@ -1,0 +1,30 @@
+@'
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated output
+result/
+
+# Intermediate data folders
+lucknow_worked/
+Lucknow_MERGED_Daily/
+2024/
+2025/
+2026/
+2024_cleaned_csv_RWY27/
+2024_excel_RWY27/
+2024_original_RWY27/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.his
+*.zip
+'@ | Set-Content -Encoding utf8 .gitignore
