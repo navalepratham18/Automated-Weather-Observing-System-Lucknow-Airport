@@ -17,12 +17,12 @@ The workflow has eight logical phases:
 6. Audit the dataset and train/evaluate the LSTM notebooks.
 
 The reference implementation is represented by
-[`2024_filesmove.py`](./2024_filesmove.py), [`2024_merge.py`](./2024_merge.py),
-[`stage1_preprocess.py`](./stage1_preprocess.py),
-[`stage2_gap_analysis.py`](./stage2_gap_analysis.py),
-[`stage3_final.py`](./stage3_final.py),
-[`stage4_mlreadydata.py`](./stage4_mlreadydata.py), and
-[`merge_lstm_ready_dataset.py`](./merge_lstm_ready_dataset.py). These scripts
+[`2024_filesmove.py`](../scripts/2024_filesmove.py), [`2024_merge.py`](../scripts/2024_merge.py),
+[`stage1_preprocess.py`](../scripts/stage1_preprocess.py),
+[`stage2_gap_analysis.py`](../scripts/stage2_gap_analysis.py),
+[`stage3_final.py`](../scripts/stage3_final.py),
+[`stage4_mlreadydata.py`](../scripts/stage4_mlreadydata.py), and
+[`merge_lstm_ready_dataset.py`](../scripts/merge_lstm_ready_dataset.py). These scripts
 contain the executable behavior; this document explains how to parameterize and
 run that behavior for another airport.
 

@@ -1,4 +1,3 @@
-@'
 # Python
 .venv/
 venv/
@@ -27,4 +26,3 @@ Lucknow_MERGED_Daily/
 *.xls
 *.his
 *.zip
-'@ | Set-Content -Encoding utf8 .gitignore

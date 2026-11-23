@@ -38,7 +38,7 @@ VALIDATION_RATIO = 0.15
 TARGET_COLUMNS = ["CLOUD_Vertical_Visibility", "VIS_Visibility_MOR"]
 TIMESTAMP_COLUMN = "Datetime"
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_DATA_FILE = (
     BASE_DIR
     / "lucknow_worked"
